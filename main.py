@@ -87,8 +87,8 @@ for n1 in range(1, 9):
     bpy += 62.5
 
 
-imgBoard = pygame.image.load("assets/chess/board_big.png")
-imgBlackKing = pygame.image.load("assets/chess/black_king.png")
+imgBoard = pygame.image.load("assets/board_big.png")
+imgBlackKing = pygame.image.load("assets/black_king.png")
 
 # black_king = King(imgBlackKing, 248, 50)
 black_king = King(4, imgBlackKing)
